@@ -1,0 +1,78 @@
+/* Write your CSS here */
+
+.cash-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 300px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.sara {
+  padding: 15px;
+  border-radius: 100%;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  margin-left: 10px;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.balance-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #585076;
+  font-weight: bold;
+}
+
+.heading {
+  color: #d4d2db;
+  font-size: 20px;
+}
+
+.amount {
+  color: #d4d2db;
+  font-size: 23px;
+}
+
+.in-rupees {
+  font-size: 13px;
+}
+
+.sum {
+  color: #585076;
+  font-size: 14px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
